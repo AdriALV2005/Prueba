@@ -1,5 +1,5 @@
 import React from 'react'
-
+import imagen1 from '../../assets/images/slider/logo.png'
 
 const Inicio = () =>{
   return (
@@ -28,7 +28,7 @@ const Inicio = () =>{
           </div>
         </div>
         <div className="slide-item two">
-          <div className="image-layer" style={{ backgroundImage: "url('../../assets/images/slider/fondo2.avif')" }}></div>
+          <div className="image-layer" style={{ backgroundImage: "url('../../../assets/images/slider/fondo2.avif')" }}></div>
           <div className="container">
             <div className="slider-content style-two three wow animate__slideInLeft">
               <div className="slider-sub-title">
@@ -56,7 +56,7 @@ const Inicio = () =>{
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="about-thumb wow animate__slideInUp">
-              <img src="assets/images/about/imagen1.webp" alt="Imagen de topografía" />
+              <img src={imagen1} alt="Imagen de topografía" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
